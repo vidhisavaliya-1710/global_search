@@ -90,7 +90,6 @@ function View_date() {
               <th>Id</th>
               <th>First Name</th>
               <th>Last Name</th>
-              {/* <th>Book Id</th> */}
               <th>Book Name</th>
               <th>Book Issue Date</th>
               <th>Book Submission Date</th>
@@ -103,7 +102,6 @@ function View_date() {
                   <td>{student.id}</td>
                   <td>{student.firstName}</td>
                   <td>{student.lastName}</td>
-                  {/* <td>{student.book_id}</td> */}
                   <td>{student.Book?.book_name || 'N/A'}</td>
                   <td>{dayjs(student.book_issue_date).format('YYYY-MM-DD')}</td>
                   <td>{ dayjs(student.book_submission_date).format('YYYY-MM-DD')}</td>

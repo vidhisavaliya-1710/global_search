@@ -61,7 +61,8 @@ function Add_Stud() {
                                         name="firstName"
                                         className="form_sec"
                                         value={formdata.firstName}  
-                                        onChange={handleChange}                            />
+                                        onChange={handleChange}             
+                                          />
                                     
                                 </FloatingLabel>
 
